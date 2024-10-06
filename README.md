@@ -1,1 +1,47 @@
-# Nasa-project-Tell-Us-a-Climate-Story-
+
+### Project Title: Tell Us a Climate Story – How Emissions Are Affected by Seismic Events
+
+![alt text](<DALL·E 2024-10-06 11.11.42 - A detailed visual representation showing the relationship between CO2 emissions and Earth's climate. On one side of the image, factories, vehicles, an.webp>)
+## Overview
+This project explores the relationship between seismic events (earthquakes) and greenhouse gas emissions, with a specific focus on understanding if seismic activity influences emission levels. Using global seismic and emissions datasets from 2015 to 2020, the project investigates potential spikes or drops in emissions around the time of earthquakes.
+
+This work was conducted as part of the NASA Apps Challenge under the "Tell Us a Climate Story" category.
+
+## Goal
+The primary goal is to determine whether there is a correlation between seismic events and changes in emissions, such as CO₂ and methane, before and after these events.
+
+Data Sources
+Earthquake Data: Downloaded from the IRIS Earthquake Browser, covering global seismic events from 2015 to 2020. The dataset includes details such as latitude, longitude, depth, magnitude, and timestamp of each earthquake.
+Emissions Data: Extracted from NASA’s CO₂ and Methane Datasets, which include data on carbon dioxide concentrations, methane concentrations, and fluxes over the same period (2015–2020).
+
+## Key Steps in the Project
+Data Collection: Gathered seismic event data (magnitude ≥ 5.0) and emissions data from relevant sources.
+Data Cleaning and Preparation:
+Filtered seismic data to include only significant earthquakes.
+Cleaned and formatted emissions data, ensuring proper alignment with the seismic events' timeline.
+
+## Analysis:
+Merged seismic and emissions datasets based on geographic proximity and time.
+Analyzed changes in emissions before and after earthquakes, focusing on a 30-day window.
+Visualization:
+Created visualizations to show seismic events and emissions on a geographic map.
+Plotted emissions changes relative to seismic events to identify potential spikes or trends.
+
+## Key Findings
+In regions like Indonesia and Southeast Asia, seismic events were correlated with significant changes in emissions.
+Some emissions spikes were detected within 30 days following large earthquakes, particularly in areas with high industrial activity.
+Further research is required to determine whether these emission changes are caused directly by seismic events or by secondary factors like infrastructure damage or industrial shutdowns.
+
+## Technologies Used
+Python: For data processing, analysis, and visualization.
+Pandas: For data manipulation and cleaning.
+Matplotlib and GeoPandas: For creating geographic plots and visualizations.
+Tableau: For interactive data storytelling and presenting insights visually.
+
+## Next Steps
+Extend the analysis to other seismic-prone regions to validate the findings.
+Improve the time-series analysis for detecting long-term trends between seismic activity and emissions.
+Investigate other natural phenomena (e.g., volcanic eruptions) that may influence emissions.
+
+## Conclusion
+This project explores a potential connection between seismic activity and emissions, contributing to the broader conversation on how natural events may interact with human-made climate impacts. The results highlight the need for further investigation into the role of seismic events in disrupting or altering emissions patterns.
